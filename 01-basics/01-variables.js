@@ -3,7 +3,7 @@ let accountEmail ="nasim@google.com"
 var accountPassword ="1203"
 accountCity ="Ramnagar"
 
-// accountId = 3
+// accountId = 3  // not allowed
 
 accountEmail = "nasim.com"
 
