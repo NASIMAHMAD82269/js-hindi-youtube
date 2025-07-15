@@ -28,7 +28,23 @@
 // let negValue = -value
 // console.log(negValue);
 
-let str1 = "Hello"
-let str2 = " Nasim Ahmad"
-let str3 = str1 + str2
-console.log(str3);
+// let str1 = "Hello"
+// let str2 = " Nasim Ahmad"
+// let str3 = str1 + str2
+// console.log(str3);
+
+
+//  Postfix increment
+
+// let x = 6
+// let y = x++
+// console.log(x)
+// console.log(y)
+
+
+// Prefix increment
+
+let a = 6
+let b = ++a
+console.log(a)
+console.log(b)
