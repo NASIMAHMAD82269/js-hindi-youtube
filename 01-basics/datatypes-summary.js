@@ -1,19 +1,21 @@
 // Primitive
 
+
+
 // 7 types : String, Number, Boolean, null , undefined, Symbol, BigInt
 
-const score = 10
-const scoreValue = 10.2
+// const score = 10
+// const scoreValue = 10.2
 
-const isLoggedIn = false
-const outsideTemp = null
-let userEmail;
-const id = Symbol('123')
-const anotherId = Symbol('123')
+// const isLoggedIn = false
+// const outsideTemp = null
+// let userEmail;
+// const id = Symbol('123')
+// const anotherId = Symbol('123')
 
-console.log(id == anotherId)
+// console.log(id == anotherId)
 
-// const bigNumber = 12334566789998876543210n
+//  const bigNumber = 12334566789998876543210n
 
 
 
@@ -21,14 +23,27 @@ console.log(id == anotherId)
 
 // Array, Objects, Function
 
-const heros = ["krissh", "shaktiman"]
-let myObj = {
-    name: "Nasim Ahmad",
-    age:20,
+
+
+
+// ***************************************************
+
+// Stack (Primitive), Heap(Non-Primitive)
+
+let myYutubename = "Nasim_hindi animated"
+let anothername = myYutubename
+anothername = "unique330"
+console.log(myYutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "nadim@google.com",
+    upi: "user@ybl"
 }
 
-const myFunction = function(){
-    console.log("Hello world");
-}
+let userTwo = userOne
 
-console.log(typeof bigNumber);
+userTwo.email = "nasim@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
