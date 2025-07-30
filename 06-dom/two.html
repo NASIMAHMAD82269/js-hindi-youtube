@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Example</title>
+    <style>
+    body
+    {color: #f1f1f1; background-color: #212121;}
+    </style>
+</head>
+<body>
+    <div class="parent">
+       <div class="day">Monday</div>
+       <div class="day">Tuesday</div>
+       <div class="day">Wednesday</div>
+       <div class="day">Thursday</div>
+       <div class="day">Friday</div>
+    </div>
+</body>
+<script>
+    const parent = document.querySelector('.parent')
+    console.log(parent.children); // Returns HTMLCollection of child elements
+    console.log(parent.children[3].innerText); // Returns the fourth child element
+
+for (let i = 0; i < parent.children.length; i++) {
+        console.log(parent.children[i].innerText); // Logs each child's text content
+    }
+    parent.children[2].style.color = 'red'; // Changes the color of the third child to red
+   // console.log(parent.firstElementChild); // Returns the first child element
+   // console.log(parent.lastElementChild); // Returns the last child element
+    
+   const dayOne = document.querySelector('.day');
+   console.log(dayOne); // Returns the first element with class 'day'
+   console.log(dayOne.nextElementSibling); // Returns the next sibling element
+
+   console.log("NODES: ", parent.childNodes); // Returns all child nodes including text nodes
+   console.log("ELEMENTS: ", parent.children); // Returns only element nodes
+   
+
+
+</script>
+
+</html>

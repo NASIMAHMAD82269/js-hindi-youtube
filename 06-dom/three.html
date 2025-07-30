@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <style>
+        body{
+            background-color: #181414;
+            color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+   
+</body>
+<script>
+    const newDiv = document.createElement('div'); // Creates a new div element
+    console.log(newDiv); // Logs the newly created div element
+    newDiv.className = 'new-div'; // Sets the class of the new div
+    newDiv.id = Math.round(Math.random() * 10 + 1); // Sets the id of the new div
+    div.SetAttribute('title', 'generated title'); // Sets a custom attribute 'title'
+    div.style.backgroundColor = 'blue'; // Sets the background color of the new div
+    div.style.color = 'white'; // Sets the text color of the new div
+    div.style.padding = '10px'; // Sets padding for the new div
+    div.style.margin = '10px'; // Sets margin for the new div
+    const textNode = document.createTextNode('This is a dynamically created div'); // Creates a text node
+    newDiv.appendChild(textNode); // Appends the text node to the new div
+    document.body.appendChild(newDiv); // Appends the new div to the body of the document
+    console.log(newDiv); // Logs the new div with its properties
+    console.log(document.body); // Logs the body of the document to show the new div is
+</script>
+</html>
