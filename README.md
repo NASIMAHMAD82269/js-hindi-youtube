@@ -1,2 +1,2 @@
-# js-hindi-youtube
+# js-practics
  javascript series
